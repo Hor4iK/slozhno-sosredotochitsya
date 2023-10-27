@@ -190,7 +190,9 @@
   font-weight: 400;
 }
 
-.advices > .content__conteiner__section:first-of-type .content__conteiner__section__title:first-child {
+.advices
+  > .content__conteiner__section:first-of-type
+  .content__conteiner__section__title:first-child {
   font-weight: 700;
 }
 
@@ -260,7 +262,7 @@
     flex-direction: column;
     align-self: start;
   }
-  
+
   .what-reduces .content__conteiner__section {
     grid-column-start: 1;
     grid-column-end: 4;
@@ -297,7 +299,7 @@
   .why-hard {
     grid-template-columns: 1fr;
     grid-template-rows: auto repeat(2, 1fr);
-  } 
+  }
 
   .why-hard .content__conteiner__section {
     grid-column-start: 1;
