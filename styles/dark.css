@@ -1,7 +1,7 @@
 .page.theme_dark {
   --color-theme: #000028;
   --accent-color: #ff0070;
-  --accent-color-shade: #ff007066;
+  --accent-color-shade: rgb(255 0 112 0.40);
   --font-color: #f1b2ce;
   --font-color-title: #db00ff ;
 }
