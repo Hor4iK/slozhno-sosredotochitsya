@@ -49,7 +49,7 @@
     --bg-image: url(../images/cover-image-light.png);
   }
 
-  .page.theme_light {
+  .page.theme_light html {
     background-image: var(--bg-image);
   }
 
