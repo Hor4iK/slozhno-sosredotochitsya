@@ -5,6 +5,7 @@
   --font-family: 'IBM Plex mono';
   --font-size: 18px;
   --font-color: #f1b2ce;
+  --font-color-title: #db00ff ;
   --margin-bottom: 80px;
   --bg-image: url(/images/cover-image-dark.png);
 }

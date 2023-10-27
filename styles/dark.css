@@ -3,5 +3,9 @@
   --accent-color: #ff0070;
   --accent-color-shade: #ff007066;
   --font-color: #f1b2ce;
+  --font-color-title: #db00ff ;
+}
+
+.theme_dark html {
   background-image: var(--bg-image);
 }

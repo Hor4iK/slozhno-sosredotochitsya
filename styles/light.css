@@ -3,6 +3,7 @@
   --accent-color: #ff8dcb;
   --accent-color-shade: #35343066;
   --font-color: #353430;
+  --font-color-title: #ffcde6;
   --bg-image: url(../images/cover-image-light.png);
 }
 
@@ -46,6 +47,7 @@
     --accent-color: #ff8dcb;
     --accent-color-shade: #35343066;
     --font-color: #353430;
+    --font-color-title: #ffcde6;
     --bg-image: url(../images/cover-image-light.png);
   }
 
