@@ -8,7 +8,6 @@ body {
   min-inline-size: 375px;
   max-inline-size: 1440px;
   margin: 0 auto;
-  padding: clamp(0.625rem, 0.0286rem + 2.6445vw, 1.25rem);
 }
 
 h1,

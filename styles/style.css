@@ -18,8 +18,9 @@
 .header {
   display: grid;
   grid-template-rows: 1fr auto 1fr;
-  height: calc(100vh - clamp(0.625rem, 0.0286rem + 2.6445vw, 1.25rem) * 2);
-  margin-block-end: var(--margin-bottom);
+  height: 100vh;
+  padding: clamp(0.625rem, 0.0286rem + 2.6445vw, 1.25rem);
+  margin-block-end: 40px;
 }
 
 .decorated-zone {
@@ -31,8 +32,8 @@
   position: absolute;
   width: 25px;
   height: 25px;
-  top: 0;
-  right: 0;
+  top: clamp(0.625rem, 0.0286rem + 2.6445vw, 1.25rem);
+  right: clamp(0.625rem, 0.0286rem + 2.6445vw, 1.25rem);
   border-top: 1px solid var(--accent-color);
   border-right: 1px solid var(--accent-color);
 }
@@ -42,8 +43,8 @@
   position: absolute;
   width: 25px;
   height: 25px;
-  bottom: 0;
-  left: 0;
+  bottom: clamp(0.625rem, 0.0286rem + 2.6445vw, 1.25rem);
+  left: clamp(0.625rem, 0.0286rem + 2.6445vw, 1.25rem);
   border-bottom: 1px solid var(--accent-color);
   border-left: 1px solid var(--accent-color);
 }
@@ -88,7 +89,8 @@
   color: var(--accent-color);
   justify-self: end;
   align-self: start;
-  right: calc(25px + 3px);
+  top: clamp(0.625rem, 0.0286rem + 2.6445vw, 1.25rem);
+  right: calc(clamp(0.625rem, 0.0286rem + 2.6445vw, 1.25rem) + 28px);
 }
 
 .header__decorated-element::after {
@@ -129,17 +131,21 @@
 }
 
 .content {
-  margin-block-end: 60px;
+  margin-block-end: 40px;
+  padding: clamp(0.625rem, 0.0286rem + 2.6445vw, 1.25rem);
 }
 
 .content__conteiner {
-  margin-block-end: var(--margin-bottom);
   display: grid;
   gap: 20px;
 }
 
+.content__conteiner:not(:last-child) {
+  margin-block-end: var(--margin-bottom);
+}
+
 .why-hard {
-  grid-template-columns: 1fr 2.05fr;
+  grid-template-columns: 0.97fr 2fr;
   grid-template-rows: 1fr 1fr;
 }
 
@@ -183,7 +189,7 @@
 }
 
 .advices {
-  grid-template-columns: 1fr 2.04fr;
+  grid-template-columns: 0.97fr 2fr;
 }
 
 .advices .content__conteiner__section__title {
@@ -241,7 +247,7 @@
 }
 
 .footer {
-  height: calc(100vh - clamp(0.625rem, 0.0286rem + 2.6445vw, 1.25rem) * 2);
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -261,6 +267,15 @@
   .header__theme-menu-list {
     flex-direction: column;
     align-self: start;
+  }
+
+  .why-hard {
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .advices {
+    grid-template-columns: 1fr 2fr;
   }
 
   .what-reduces .content__conteiner__section {
@@ -286,6 +301,10 @@
 @media (width <= 500px) {
   :root {
     --margin-bottom: 50px;
+  }
+
+  .header {
+    margin-block-end: 30px;
   }
 
   .header__title {
@@ -336,6 +355,6 @@
   }
 
   .content {
-    margin-block-end: 54px;
+    margin-block-end: 34px;
   }
 }
