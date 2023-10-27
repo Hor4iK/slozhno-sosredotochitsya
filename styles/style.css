@@ -11,7 +11,7 @@
   background-position: center center;
 }
 
-.theme_dark html {
+.theme_dark .page {
   background-image: var(--bg-image);
 }
 

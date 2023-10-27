@@ -51,7 +51,7 @@
     --bg-image: url(../images/cover-image-light.png);
   }
 
-  .page.theme_light html {
+  .page.theme_light .page {
     background-image: var(--bg-image);
   }
 
