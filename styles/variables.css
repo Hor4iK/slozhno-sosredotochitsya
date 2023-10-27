@@ -1,0 +1,10 @@
+:root {
+  --color-theme: #000028;
+  --accent-color: #ff0070;
+  --accent-color-shade: #ff007066;
+  --font-family: 'IBM Plex mono';
+  --font-size: 18px;
+  --font-color: #f1b2ce;
+  --margin-bottom: 80px;
+  --bg-image: url(/images/cover-image-dark.png);
+}

@@ -1,0 +1,7 @@
+.page.theme_dark {
+  --color-theme: #000028;
+  --accent-color: #ff0070;
+  --accent-color-shade: #ff007066;
+  --font-color: #f1b2ce;
+  background-image: var(--bg-image);
+}
