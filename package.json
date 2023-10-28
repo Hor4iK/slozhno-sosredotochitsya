@@ -10,7 +10,7 @@
     "lint": "stylelint './**/*.css'",
     "lintfix": "stylelint './**/*.css' --fix",
     "checkAll": "npm run check && npm run lint",
-    "fixALL": "npm run format && npm run lintfix"
+    "fixAll": "npm run format && npm run lintfix"
   },
   "author": "",
   "license": "ISC",
